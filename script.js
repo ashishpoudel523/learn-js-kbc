@@ -1,3 +1,5 @@
+'user strict'
+/*
 console.log("Ashish")
 
 
@@ -31,3 +33,401 @@ console.log(Math.floor(Math.random() * 10) + 1)
 const names = `Ashish`
 
 console.log(names.charAt(Math.floor(Math.random() * names.length)))
+*/
+
+
+
+//Conditionals: If Statements
+
+//Decision Tree
+/*
+let playerOne = `rock`
+let computer = `paper`
+if (playerOne === computer) {
+    //tie game
+} else if (playerOne === 'rock') {
+    if (computer === 'paper') {
+        //computer wins
+    } else {
+        //playerOneWIns
+    }
+} else if (playerOne === 'paper') {
+    if (computer === 'scissors') {
+        //computer wins
+    } else {
+        //playerOne wins
+    }
+} else {
+    if (computer === 'rock') {
+        //computer wins
+    } else {
+        //playerOne wins
+    }
+}
+*/
+
+
+
+//switch statement
+/*
+switch (Math.floor(Math.random() * 2 + 1)) {
+    case 1:
+        console.log(1)
+        break
+    case 2:
+        console.log(2)
+        break
+    default:
+        console.log(`numbers`)
+}
+
+
+let one = `paper`
+let comp = `rock`
+
+switch (one) {
+    case comp:
+        console.log(`tie game`)
+        break
+    case `rock`:
+        if (comp === `paper`) {
+            console.log(`comp wins`)
+        } else {
+            console.log(`one wins`)
+        }
+        break
+    case `paper`:
+        if (comp === `scissors`) {
+            console.log(`comp wins`)
+        } else {
+            console.log(`one wins`)
+        }
+        break
+    default:
+        if (comp === `rock`) {
+            console.log(`comp wins`)
+        } else {
+            console.log(`one wins`)
+        }
+}
+*/
+
+
+
+//ternary operator
+/*
+let a = 9
+z = a < 5 ? console.log(`right`) : console.log(`wrong`)
+
+//user input
+let x = prompt(`enter your name:`)
+if (x.length != 0) {
+    console.log(x)
+} else {
+    console.log("you didn't enter anything")
+}
+*/
+
+
+
+//Your First InterActive Game
+/*
+let playGame = confirm(`Shall we play rock , paper or scissors?`)
+
+if (playGame) {
+    //play
+    let playerChoice = prompt(`please enter rock , paper or scissors`)
+    if (playerChoice) {
+        let playerOne = playerChoice.trim().toLowerCase()
+        if (playerOne === `rock` || playerOne === `paper` || playerOne === `scissors`) {
+            let computerChoice = Math.floor(Math.random() * 3 + 1)
+            let computer = computerChoice === 1 ? `rock` :
+                computerChoice === 2 ? `paper` : `scissors`
+
+            let result =
+                playerOne === computer ?
+                `tie game` :
+                playerOne === `rock` && computer === `paper` ?
+                `playerOne: ${playerOne} \nComputer: ${computer} \nComputer wins` :
+                playerOne === `paper` && computer === `scissors` ?
+                `playerOne: ${playerOne} \nComputer: ${computer} \nComputer Wins!` :
+                playerOne === `scissors` && computer === `rock` ?
+                `playerOne: ${playerOne} \nComputer: ${computer} \nComputer wins!` :
+                `playerOne: ${playerOne} \nComputer: ${computer} \nPlayerOne Wins!`
+
+            alert(result)
+            let playAgain = confirm(`Play Again?`)
+            playAgain ? location.reload() : alert(`ok thanks for playing`)
+
+        } else {
+            alert("you didn`t enter rock , paper or scissors.")
+        }
+    } else {
+        alert(`i guess you changed your mind. maybe next time`)
+    }
+} else {
+    alert(`ok ! maybe next time.`)
+}
+*/
+
+
+
+/*
+//whilw loops
+let myNumber = 0
+while (myNumber < 10) {
+    console.log(myNumber)
+    myNumber++
+}
+
+
+
+
+
+//for loop
+let names = `ashish`
+for (i = 0; i < names.length; i++) {
+    console.log(i)
+}
+
+
+let n = `ashish`
+let counter = 0
+let myLetter
+while (counter <= 3) {
+    myLetter = n[counter]
+    console.log(myLetter)
+    if (counter === 1) {
+        counter += 2
+        continue
+    }
+    if (myLetter === `s`)
+        break
+    counter++
+}
+console.log(counter)
+*/
+
+
+//functions
+
+function sum(num1, num2) {
+  if (num2 === undefined) {
+    return num1 + num1
+  }
+  return num1 + num2
+}
+console.log(sum(2, 7))
+
+
+const getUserNameFromEmail = (email) => {
+  return email.slice(0, email.indexOf(`@`))
+}
+console.log(getUserNameFromEmail(`ashishpoudel908@gmal.com`))
+
+
+const toProperCase = (name) => {
+  return name.charAt(0).toUpperCase() + name.slice(1).toLowerCase()
+}
+console.log(toProperCase(`aShIsH`))
+
+//functons helps in reusability of codes
+
+
+
+//scopes
+var x = 1
+let y = 2
+const z = 3
+
+
+
+
+//local scope
+const fun = () => {
+  const z = 5
+  console.log(y)
+
+
+  //local scope
+  {
+    //let y = 4
+    console.log(z)
+  }
+}
+//global scope
+fun()
+console.log(z) //variable in local scope cannot be called by global scope
+
+
+
+
+
+
+
+/*
+
+//arrays
+const cars = [`toyota`, `volvo`, `mercedez`]
+console.log(cars[1])
+
+cars.push(`tucidos`)
+
+console.log(cars)
+
+cars.unshift(432)
+
+console.log(cars)
+cars.shift()
+console.log(cars)
+
+console.log(cars[1])
+
+cars.pop[`volvo`]
+console.log(cars)
+
+cars.splice(1, 1, `lamborgihini`)
+
+console.log(cars)
+
+
+const other = [`a`, `b`, 'c', 'd']
+console.log(other[3])
+
+console.log(other.join())
+
+
+const j = cars.concat(other)
+console.log(j)
+
+const arko = [...cars, ...other] //... means spread operators
+
+console.log(arko)
+
+
+
+//previous first game in array and functions
+// Rock, Paper, Scissors: Refactored with Functions
+const initGame = () => {
+    const startGame = confirm("Shall we play rock, paper, or scissors?");
+    startGame ? playGame() : alert("Ok, maybe next time.");
+  };
+  
+  // Game flow function
+  const playGame = () => {
+    while (true) {
+      let playerChoice = getPlayerChoice();
+      playerChoice = formatPlayerChoice(playerChoice);
+      if (playerChoice === "") {
+        invalidChoice();
+        continue;
+      }
+      if (!playerChoice) {
+        decidedNotToPlay();
+        break;
+      }
+      playerChoice = evaluatePlayerChoice(playerChoice);
+      if (!playerChoice) {
+        invalidChoice();
+        continue;
+      }
+      const computerChoice = getComputerChoice();
+      const result = determineWinner(playerChoice, computerChoice);
+      displayResult(result);
+      if (askToPlayAgain()) {
+        continue;
+      } else {
+        thanksForPlaying();
+        break;
+      }
+    }
+  };
+  
+  const getPlayerChoice = () => {
+    return prompt("Please enter rock, paper, or scissors.");
+  };
+  
+  const formatPlayerChoice = (playerChoice) => {
+    if (playerChoice || playerChoice === "") {
+      return playerChoice.trim().toLowerCase();
+    } else {
+      return false;
+    }
+  };
+  
+  const decidedNotToPlay = () => {
+    alert("I guess you changed your mind. Maybe next time.");
+  };
+  
+  const evaluatePlayerChoice = (playerChoice) => {
+    if (
+      playerChoice === "rock" ||
+      playerChoice === "paper" ||
+      playerChoice === "scissors"
+    ) {
+      return playerChoice;
+    } else {
+      return false;
+    }
+  };
+  
+  const invalidChoice = () => {
+    alert("You didn't enter rock, paper, or scissors.");
+  };
+  
+  const getComputerChoice = () => {
+    const randomNumber = Math.floor(Math.random() * 3);
+    const rpsArray = ["rock", "paper", "scissors"];
+    return rpsArray[randomNumber];
+  };
+  
+  const determineWinner = (player, computer) => {
+    const winner =
+      player === computer
+        ? "Tie game!"
+        : player === "rock" && computer === "paper"
+        ? `playerOne: ${player}\nComputer: ${computer}\nComputer wins!`
+        : player === "paper" && computer === "scissors"
+        ? `playerOne: ${player}\nComputer: ${computer}\nComputer wins!`
+        : player === "scissors" && computer === "rock"
+        ? `playerOne: ${player}\nComputer: ${computer}\nComputer wins!`
+        : `playerOne: ${player}\nComputer: ${computer}\nplayerOne wins!`;
+  
+    return winner;
+  };
+  
+  const displayResult = (result) => {
+    alert(result);
+  };
+  
+  const askToPlayAgain = () => {
+    return confirm("Play Again?");
+  };
+  
+  const thanksForPlaying = () => {
+    alert("Ok, thanks for playing.");
+  };
+  
+  initGame();
+
+
+
+  */
+
+
+//JAVASCRIPT OBJECTS
+const things = {
+  nams: "pen",
+  price: 30,
+  durability: "1 month",
+  function: "writing",
+  used_in: ["office", "house", "college"],
+  action: function () {
+    return `The ${things.nams} is ${things.price} rupees`
+  }
+
+}
+
+
+console.log(things)
+console.log(things.action())
