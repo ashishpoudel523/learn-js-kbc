@@ -1,4 +1,4 @@
-'user strict'
+'use strict'
 /*
 console.log("Ashish")
 
@@ -300,7 +300,7 @@ console.log(other.join())
 const j = cars.concat(other)
 console.log(j)
 
-const arko = [...cars, ...other] //... means spread operators
+const arko = [...cars, ...other] //... means spread operators for concatination of arrays
 
 console.log(arko)
 
@@ -416,6 +416,7 @@ const initGame = () => {
 
 
 //JAVASCRIPT OBJECTS
+/*
 const things = {
   nams: "pen",
   price: 30,
@@ -423,11 +424,186 @@ const things = {
   function: "writing",
   used_in: ["office", "house", "college"],
   action: function () {
-    return `The ${things.nams} is ${things.price} rupees`
+    return `The ${things.nams} is ${things.price} rupees` //backticks
   }
 
 }
-
-
 console.log(things)
 console.log(things.action())
+
+
+
+const vehicle = {
+  wheels: 4,
+  engine: function () {
+    return "Vroom"
+  }
+}
+
+const truck = Object.create(vehicle)
+truck.doors = 2
+console.log(truck)
+console.log(truck.wheels)
+console.log(truck.engine())
+
+const car = Object.create(vehicle)
+car.door = 4
+car.engine = function () {
+  return "whoooosh"
+}
+console.log(car.engine())
+
+const tesla = Object.create(car)
+console.log(tesla.wheels)
+tesla.engine = function () {
+  return "shhhhhh...."
+}
+console.log(tesla.engine())
+
+
+
+
+const band = {
+  vocals: "Robert Plant",
+  guitar: "Jimmy Page",
+  bass: "AP",
+  drums: "John"
+}
+
+*/
+
+
+
+/*
+//js classses
+class Pizza {
+  constructor(pizzaSize) {
+    this._size = pizzaSize
+    this._crust = "original"
+  }
+  getCrust() {
+    return this._crust
+  }
+  setCrust(pizzaCrust) {
+    this._crust = pizzaCrust
+  }
+}
+
+class SpecialPizza extends Pizza {
+  constructor(pizzaSize) {
+    super(pizzaSize)
+    this.type = "The Works"
+  }
+  slice() {
+    console.log(`Our ${this.type} ${this.size} pizza has 8 slices.`)
+  }
+}
+
+const mySpecial = new SpecialPizza("medium")
+mySpecial.slice()
+
+
+
+
+//JSON (Javascript Object Notation)
+
+/*JSON is used to send and receive data.
+It is a text format that is compleetely language independent.  
+*/
+/*
+const things = {
+  nams: "pen",
+  price: 30,
+  durability: "1 month",
+  function: "writing",
+  used_in: ["office", "house", "college"],
+  action: function () {
+    return `The ${things.nams} is ${things.price} rupees` //backticks
+  }
+
+}
+console.log(things)
+console.log(things.action())
+console.log(typeof things)
+
+//convert into string
+const sendJSON = JSON.stringify(things)
+console.log(sendJSON)
+console.log(typeof sendJSON)
+
+
+//again convert to object while receiving from json
+const receiveJSON = JSON.parse(sendJSON)
+console.log(receiveJSON)
+console.log(typeof receiveJSON)
+
+
+
+
+//Error handling
+
+const makeError = () => {
+  let i = 1
+  while (i <= 2) {
+    try {
+      throw new customError("This is a custom error!")
+      const go = "College"
+      go = "School"
+    } catch (err) {
+      console.error(err.stack)
+    } finally {
+      console.log("....finally finished")
+      i++
+    }
+  }
+}
+makeError()
+
+function customError(message) {
+  this.message = message
+  this.name = "customError"
+  this.stack = `${this.name}: ${this.message}`
+}
+
+
+
+
+//prime number checking
+const number = (prompt("Enter a positive number: "));
+let isPrime = true;
+
+// check if number is equal to 1
+if (number === 1) {
+  console.log("1 is neither prime nor composite number.");
+}
+
+// check if number is greater than 1
+else if (number > 1) {
+
+  // looping through 2 to number-1
+  for (let i = 2; i < number; i++) {
+    if (number % i == 0) {
+      isPrime = false;
+      break;
+    }
+  }
+
+  if (isPrime) {
+    console.log(`${number} is a prime number`);
+  } else {
+    console.log(`${number} is a not prime number`);
+  }
+}
+
+// check if number is less than 1
+else {
+  console.log("The number is not a prime number.");
+}
+
+*/
+
+//Document Object Model DOM
+const view1 = document.getElementById("view1")
+console.log(view1)
+const view2 = document.querySelector(".ap") // the dot before class name is used to select class by query  selector whereas # is used to select id
+console.log(view2)
