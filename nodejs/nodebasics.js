@@ -30,6 +30,9 @@ console.log(add(2, 4))
 console.log(subtract(2, 4))
 console.log(multiply(2, 4))
 console.log(divide(2, 4))
+
+
+
 /*
 console.log(os.type())
 console.log(os.version())
@@ -45,3 +48,10 @@ console.log(path.extname(__filename))
 
 console.log(path.parse(__filename))
 */
+
+
+const abcFun = (a, b) => {
+    return a + b
+}
+
+console.log(abcFun(2, 5))
