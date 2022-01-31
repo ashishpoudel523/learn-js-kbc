@@ -5,10 +5,10 @@ const EventEmitter = require('events')
 class MyEmitter extends EventEmitter {}
 
 //initialize object 
-const MyEmitter = new MyEmitter()
+const myEmitter = new MyEmitter()
 
-//add listener for the log
-MyEmitter.on('log', (msg) => logEvents(msg))
+//add listener for the log event
+myEmitter.on('log', (msg) => logEvents(msg))
 
 
 setTimeout(() => {
