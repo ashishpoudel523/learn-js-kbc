@@ -1,7 +1,7 @@
 {
   "name": "nodejs",
   "version": "1.0.0",
-  "description": "",
+  "description": "Express tutirial",
   "main": "server.js",
   "scripts": {
     "start": "node server",
@@ -11,6 +11,7 @@
   "license": "ISC",
   "dependencies": {
     "date-fns": "^2.28.0",
+    "express": "^4.17.2",
     "uuid": "^8.3.2"
   },
   "devDependencies": {
