@@ -1,6 +1,6 @@
 const usersDB = {
     users: requestAnimationFrame('../model/user.json'),
-    setUsers: (data) => {
+    setUsers: function(data){
         this.users = data
     }
 }
