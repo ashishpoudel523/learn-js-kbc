@@ -4,22 +4,18 @@ const app = express();
 const path = require('path');
 const cors = require('cors');
 const corsOptions = require('./config/corsOptions');
-const {
-    logger
-} = require('./middleware/logEvents');
+const { logger } = require('./middleware/logEvents');
 const errorHandler = require('./middleware/errorHandler');
 const verifyJWT = require('./middleware/verifyJWT');
 const cookieParser = require('cookie-parser');
 const credentials = require('./middleware/credentials');
-const mongoose = require('mongoose')
-const connectDB = require('./config/dbConn')
-
+const mongoose = require('mongoose');
+const connectDB = require('./config/dbConn');
 const PORT = process.env.PORT || 3500;
 
+// Connect to MongoDB
+connectDB();
 
-
-//connect to MongoDB
-connectDB()
 // custom middleware logger
 app.use(logger);
 
@@ -31,9 +27,7 @@ app.use(credentials);
 app.use(cors(corsOptions));
 
 // built-in middleware to handle urlencoded form data
-app.use(express.urlencoded({
-    extended: false
-}));
+app.use(express.urlencoded({ extended: false }));
 
 // built-in middleware for json 
 app.use(express.json());
@@ -59,9 +53,7 @@ app.all('*', (req, res) => {
     if (req.accepts('html')) {
         res.sendFile(path.join(__dirname, 'views', '404.html'));
     } else if (req.accepts('json')) {
-        res.json({
-            "error": "404 Not Found"
-        });
+        res.json({ "error": "404 Not Found" });
     } else {
         res.type('txt').send("404 Not Found");
     }
@@ -70,6 +62,6 @@ app.all('*', (req, res) => {
 app.use(errorHandler);
 
 mongoose.connection.once('open', () => {
-    console.log('Connected to MongoDB')
+    console.log('Connected to MongoDB');
     app.listen(PORT, () => console.log(`Server running on port ${PORT}`));
-})
+});
