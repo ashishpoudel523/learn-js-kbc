@@ -1,0 +1,171 @@
+unitary Elasticity Suppply
+When the percentage change in quantity supply is equal to the percentage change in price teh suppl yof commodity  is saind ot be unitary elasticity.
+For eg: 20% increase in price of the comodity causes the same 20% change in quantity supply, it is the case of unitary elastic supply. 
+
+When the price rises by 20% from OP1 to OP2, the quantity supplied has also been increased by 20% from OQ1 to OQ2. The upward slopping supply curve SS represents unitary elastic supply. 
+
+
+4. When the percentage change in quantity supply is greater than the percentage change in the price of commodity , it is called relatively elastic supply. It is also called elasticity greater than unity
+for eg: if 10%  increase in price of the commodity results into 20% increase in quantity supply , it is the case of relatively elastic supply.
+
+In the figure above, when the price has beeen increased by 10% from OP1 to OP2 , the quantity has been increased by 20 % from OQ1 to OQ2.
+
+5. relatively inelastic supply 
+When the percentage change in quantity supplied of commodity is less than the percentage chan in its pri , it is called re ine supply. It is also called elasticity less than unity. For eg: when there is incerease in price by 20%, it has resulted into incccrease in quantity suppllied just by 10%, it is the case if relatively ine supply.
+
+According to figure above, when the price of the commodity has increased by 20%, from OP1 to OP2 , its quantity supplied has been increased by only 10% from OQ1 to OQ2.  
+
+
+
+
+
+
+
+
+
+
+
+
+----------------------------------------------------------------------------------------------
+UNIT 3 - THEORY OF CONSUMER BEHAVIOUR
+Concept of Utility
+----------------
+Utility: Utility is the want satisfying capacity of the commodity.
+Utility is measured in util.
+
+Total Utility (TU): TU is the sum of Marginal Utility Obtained from the consumption of given units of commodities.
+TU = Mu1 + MU2 + .... + MUn
+
+Marginal Utility: (MU) : Change in the due to consumption of an additional unit of the commodity.
+ MU = TUn - TUn-1
+ MU = del TU / del N where,  del TU  = change in Total Utility and del N = change in units of Commodity.
+
+ Cordinal Utility: An approach in the which utility can be measured quantitatively and can be expressed in number by using money as a measurig rod.
+
+ Ordinal Utility: An approach in which utility is a psychological concept and utility can be ranked in order.
+
+
+ Consumer's Equilibrium Under Cordinal Utility Approach : One Commodity Model
+ ----------------------------------------------------------------------------------
+
+ MUx/Px = MUm
+
+ where MUx = Marginal Utility of commodity -x 
+ Px = Price of commoditity -x
+ MUm =  Marginal Utility of money
+
+
+ A consumer is said to be in Equilibrium when the ratio of marginal utility and price of the commodity is equivalent to the marginal utility of money. At the equilibrium point, the consumer spends all his / her money income in order to maximize his/her satisfaction. In the one commodity model, the consumer in equilibrium when the marginal utility of commodity is equated to its market price. Suppose that a consumer consumes commodity -x . In this situation, the consumer is in equilibrium when the marginal utility of commodity - x is equal to its market price (Px). Symbolically, it can be expressed as 
+ MUx/Px = MUm
+
+ Consumer's equilibrium under one commodity model is based upon the following assumptions:
+1. Consumer is rational
+2. Cardinal measurement of utility is possible.
+3. Marginal utility of money remains constant.
+4. The law of diminishing marginal utility operates.
+5. Price of the commodity and income of consumer remains constant
+
+
+On the basis of these assumptions, we can explain the consumer's equilibrium under one commodity model by the help of following table and figure: (in the copy)
+
+  -------------------
+ | Pg 1 in the copy. |
+  -------------------
+
+In the figure above, Px is the price line which shows the constant marginal utility of money. Likewise, MUx is the marginal utility curve of the commodity - x which is downward slopping. The price line (Px) and MUx curve are intersecting each other at point E where MUx = Px . Therefore, the consumer is in equilibrium at point E.   
+
+
+ Consumer's Equilibrium Under Cordinal Utility Approach : Two Commodity Model
+ ----------------------------------------------------------------------------------
+
+ A consumer is said to be in equilibrium when the ratio of marginal utility and price of each commodity is equivalent to marginal utility of money. It means that consumer always tries to get equal marginal utility by cosuming a commodity which is equal to the money spent on that commoditity.
+
+ This is called "The Law of Equi Marginal Utility" OR "The Law of Substitution" 
+ According to this law, a consumer is in equilibrium under following conditions:
+ MUx / Px = MUy / Py = MUm where .............
+
+
+ Consumer's equilibrium under two commodity model is based upon the following assumptions:
+1. Consumer is rational
+2. Cardinal measurement of utility is possible.
+3. Marginal utility of money remains constant.
+4. The law of diminishing marginal utility operates.
+5. Price of the two commodities and income of consumer are given.
+6. Consumer spends all income in the two commodities.
+
+On the basis of these assumptions. we can explain the consumer's equilibrium in two commodity model as follows:
+
+Suppose that there are only two commodities, x and y in which a consumer has to spend a given money income. Let us suppose that, the price of commodity - x is Rs. 2 per unit and the price of y cmoomdity is Rs. 3 / unit and the consumer's money income is Rs. 24 which is to be spent on two commodities x and y. 
+
+In order to maximize his / her satisfaction (utility) , consumer will not equate marginal utility of the goods beacuse the prices of two commodities are different. Therefore, the consumer will equate the ratio of marginal utility and price of two commodities x and y to the marginal utility of money. This can be shown by the help of following table and figure in copy:
+
+From the figure above,
+The consumer will be in equilibrium when he / she purchases 6 units of commodity and 4 units of commoditity y beacuse it satisifies the condition required for consumer's equilibrium.
+
+
+
+In the figure above, marginal utility of commodities is measured under y axis and x is measured on y axis , a consumer get max satisfaction when he / she purchases 6 units of x commoditity and 4 units of y commoditity because At 6th units of X commoditity and 4th units of y commoditity, 
+MUx / Px = MUy / Py = MUm 
+or, 
+10/2 = 15/3 = 5
+
+Therefore, the consumer is in equilibrium when he / she purchases 6 units of x and 4 units of y. 
+
+No any other combinations will provide greater utility than this combination. Suppose if the consumer purchases one unit less of y , i.e. 3 units and 1 unit more of x , i.e. 7 units , this will lead to the decrease in total utility than before.
+7*2 + 3*3 = 23 < 24
+
+When he purchases 1 unit less that is , 3 units of y , there is loss in utility by the shaded area ABCD and when he 1 unit more of x i.e 7 units there is gain in utility by the shaded area STFU. 
+Area of loss is  greater than area of gain. ABCD>STFU.
+
+-------------------------------------------------------------------------------------------------------------------------------
+Derivation of Demand curve
+
+
+
+In the Cardinal utility measurement approach , a consuler will be in equilibrium when the marginal utility of a commodity is equal to the price of that commodity or marginal utility of money i.e.  
+MUx  = Px = MUm 
+According to the law of diminishing marginal utility, when the quantity of the commodity increases with the cosumer , marginal utility diminishes. Therefore, MU curve is downward slopping. It implies that , the demand curve of commodity is also downward slopping. It means that when the price of commodity falls , more units will be bought to attain more utility. 
+
+In the upper segment of figure MU curve represents diminishing marginal utility of commoditity x. Initially, the consumer is equilibrium point E1 where price of commoditity x is E1 and its quantity demand is OQ1. Suppose that, the price of x commoditity decreases to P2 , the new equilibrium position is E2 where the quantity demanded for commoditity x is OQ2. Likewise, the consumer will be in equilibrium point E3 when the price falls to P3. At this price, the equilibrium quantity demanded is OQ3..
+
+The lower portion of the figure shows the relationship between price of x commoditity and its quantity demanded. When the price is P1, consumer purchases OQ1 quantity of commoditity x as indicated by point J. Similarly,  when the price falls to P2 and P3, the quantity demanded increases to OQ2 and OQ3 units respectively as indicated by point K and L respectively. If we join these 3 points J, K and L,  we will derive downward slopping demand curve Dx. 
+-----------------------------------------------------------------------------------------------------------------------------------
+
+
+Q. Explain the properties of indifference curve. ( 10 Marks) Important Question in exam
+
+ORDINAL UTILITY APPROACH ->
+Ordinal Utility analysis believes that utility is the subjective phenomena and utility can only be ranked and put in order. It is impossible to measure utility in Cardinal number. It is only an expression of the conumser's preferences for one commodity over another or for one basket of goods over another. The concept of ordinal utility is based upon the following two basic propostions:
+1) It is not possible for a consumer to expresss his / her utility in quantity terms.
+
+ . However it is always possible to express which of any two goods he prefers. For eg.: A consumer may not be able to specify how much utility he obtains by eating a mango but he can tell what he prefers between mango and apple.
+
+ 2) A consumer can list all the commodities he consumes in the order of his preference.
+
+
+ The ordinal utility approach is based on following assumptions:
+ 1) Consumer is rational.
+ 2) Ordinal measurement of utility (ranking on the basis of preference)
+ 3) diminishing marginal rate of Substitution: 
+    The marginal rate of Substitution is a rate at which a consumer is willing to Substitute one commodity (x) or another commodity (y) so that his total satisfaction remains the same. 
+ 4) Transitivity and consistency of choice. 
+    Transitivity twists are Transite. Transitivity of choice means that if a consumer perefers A to B and B to C , he must prefer A to C. If A > B and B>C then A > C.
+
+
+
+It is assumed that a consumer is consistent in his choice. consistency of choice means that if the consumers A to B in one period he must not prefer B to A in another period.
+
+---------------------------------------------------------------------------------------------------------------------
+
+INDIFFERENCE curve
+
+An indifference curve is the locus of all the combination of 2 commodities which provides the same level of utility (satisfaction) to the consumer to the consumer so that the consumer is indifferent to purchase the particular combination he selects. It explains the consumer's behaviour in terms of preference in ranking for different combina of 2 commodities. 
+
+We know that one commoditity serves as a substitute for another. It means that indifference curve provide an opportinuty for substitute for one comm to another. Therefore, a consumer can make various combinations of two goods which same level of satisfaction. When such combinations are plotted graphically, it gives a curve which is known as indifference curve. It is alos called iso-utility curve or equal utility curve. The table above shows the 5 different combinations A B C D AND E that yield same level of satisfaction to the consumer. 
+
+In the figuer above, quan of commoditity x is measured in x axis and quantity of commoditity y is shown in y axis. The points A B C D and E are different combinations of x and y commodities that gives the same level of satisfaction to the cosumer. When we join these combinations, we will get a smooth and continuous curve which is called indifference curve. 
+
+properties of indifference curve:
+-----------------------------
+
+
