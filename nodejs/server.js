@@ -16,6 +16,17 @@ const connectDB = require('./config/dbConn')
 const PORT = process.env.PORT || 3500;
 
 
+
+
+
+
+
+
+
+
+
+
+
 //connect to MongoDB
 connectDB()
 
@@ -68,6 +79,7 @@ app.all('*', (req, res) => {
 });
 
 app.use(errorHandler);
+
 
 mongoose.connection.once('open', () => {
     console.log('connected to MongoDB')

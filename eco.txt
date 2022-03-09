@@ -1,12 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-   <meta charset="UTF-8">
-   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <title>Document</title>
-</head>
-<body>
+
    unitary Elasticity Suppply
 When the percentage change in quantity supply is equal to the percentage change in price teh suppl yof commodity  is saind ot be unitary elasticity.
 For eg: 20% increase in price of the comodity causes the same 20% change in quantity supply, it is the case of unitary elastic supply. 
@@ -213,5 +205,21 @@ properties of indifference curve:
    The indifference curve approach is a two comm model. Therefore, the consumer must have consumed two commodities. If indifference curve touches any axes, it means that the consumer has consumed only one commodity.
 
    If the indifference curve IC 2 touches x axis as shown in above figuer at point M, the consumer will be having OM units of x comm and zero units of y commoditity. Similarly, if the indifference curve IC 1 touches y axis as shown in above figure at point N, the consumer will be having ON units of y commoditity and Ozero units of x commoditity. These two curves violate the assumptions that the consumer buys two goods in a combination. In this way, indifference curve do not touch either of axes. 
-</body>
-</html>
+
+--------------------------------------------------------------------------------------------------------------------------------------
+
+BUDGET LINE (PRICE LINE)
+
+B= Px.Qx + Py.Qy
+where,
+B = Budget line
+Px = Price of commodity -x 
+Qx = Quantity of commodity -X
+Py = Price of commodity -y
+Qy = Quantity of commodity -Y
+
+
+
+
+
+   
