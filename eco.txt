@@ -217,6 +217,7 @@ Px = Price of commodity -x
 Qx = Quantity of commodity -X
 Py = Price of commodity -y
 Qy = Quantity of commodity -Y
+.
 
 
 
